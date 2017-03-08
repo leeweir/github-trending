@@ -12,7 +12,7 @@ inspired by [github-trending(Go Version)](https://github.com/josephyzhou/github-
 You need install `pyquery` & `requests`
 
 ```bash
-  $ git clone https://github.com/bonfy/github-trending.git
+  $ git clone git@github.com:leeweir/github-trending.git
   $ cd github-trending
   $ pip install -r requirements.txt
   $ python scraper.py
