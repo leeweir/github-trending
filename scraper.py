@@ -67,7 +67,7 @@ def job():
 
     # write markdown
     scrape('python', filename)
-    # scrape('swift', filename)
+    scrape('java', filename)
     scrape('javascript', filename)
     scrape('go', filename)
 
