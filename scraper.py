@@ -54,7 +54,7 @@ def scrape(language, filename):
             url = "https://github.com" + url
             # ownerImg = i("p.repo-list-meta a img").attr("src")
             # print(ownerImg)
-            f.write(u"* [{title}]({url}):{description}\n".format(title=title, url=url, description=description))
+            f.write(u"* [{title}]({url}): {description}\n".format(title=title, url=url, description=description))
 
 
 def job():
@@ -76,6 +76,7 @@ def job():
 
 
 if __name__ == '__main__':
-    while True:
-        job()
-        time.sleep(24 * 60 * 60)
+    # while True:
+    #     job()
+    #     time.sleep(24 * 60 * 60)
+    job()
